@@ -1,0 +1,36 @@
+@media screen and (min-width: 428px) {
+    .container {
+        max-width: 428px;
+        
+    }
+   
+}
+@media   (min-width: 429px) {
+    .hero {background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ), url(../images/hw7/tablet-bg.jpg);}}
+
+    @media (min-device-pixel-ratio: 2) and (min-width: 429px),
+    (min-resolution: 192dpi) and (min-width: 429px),
+    (min-resolution: 2dppx) and (min-width: 429px) {
+    .hero {
+      background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ), url(../images/hw7/tablet-bg-2x.jpg);
+    }
+    }
+
+@media screen and (min-width: 428px) {
+.modal{
+ width: 392px;}
+ 
+}
+.header-cont{
+    display: none;}
+
+    .header-navigation {display: none;}
+    .header-list {display: none;}
+
+  
